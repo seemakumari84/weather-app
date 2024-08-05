@@ -22,17 +22,17 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(data);
 
         if (data.weather[0].main == "Clouds") {
-            body_img.src = 'image/cloud.png';
+            body_img.src = 'cloud.png';
         } else if (data.weather[0].main == 'Clear') {
-            body_img.src = 'image/clear.jpg';
+            body_img.src = 'clear.jpg';
         } else if (data.weather[0].main == 'Rain') {
-            body_img.src = 'image/rain.png';
+            body_img.src = 'rain.png';
         } else if (data.weather[0].main == 'Drizzle') {
-            body_img.src = 'image/Drizzle.jpg';
+            body_img.src = 'Drizzle.png';
         } else if (data.weather[0].main == 'Mist') {
-            body_img.src = 'image/mist.png';
+            body_img.src = 'mist.png';
         } else if (data.weather[0].main == 'Haze') {
-            body_img.src = 'image/haze.png';
+            body_img.src = 'haze.png';
         }
         body_data.style.display = 'flex';
         deatil.style.display = 'flex';
